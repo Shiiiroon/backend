@@ -32,4 +32,5 @@ app.get('/api/incidents', (req, res) => {
 // Запуск сервера
 app.listen(PORT, () => {
     console.log(`Сервер работает! Посмотри данные тут: http://localhost:${PORT}/api/incidents`);   
+    
 });
